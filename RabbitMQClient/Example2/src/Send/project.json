@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "RabbitMQ.Client": "4.1.1",
+    "System.Threading.Timer": "4.3.0"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.1"
+        }
+      },
+      "imports": "dnxcore50"
+    }
+  },
+
+  "runtimes": {
+    "win10-x64": {}
+  }
+}
